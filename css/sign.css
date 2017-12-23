@@ -1,0 +1,96 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+body {
+    
+}
+div{
+    height: 700px;
+    width: 650px;
+    margin-top: 20px;
+    margin-right: 300px;
+}
+
+form {
+    
+    height: 600px;
+    width: 370px;
+    padding: 20px;
+    box-shadow: 10px 11px 8px 5px;
+    background-color: cornflowerblue;
+
+}
+form:hover{
+    border: 2px silver;
+    box-shadow: 10px 11px 8px -3px;    
+} 
+
+label{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.text {
+    width: 300px;
+    padding: 5px;
+    margin-top: 10px;
+    border: 3px solid #5E5656;
+    border-radius: 10px;
+}
+.text:hover {
+    border: 2px solid #5D8FEA;
+}
+
+.password{
+    width:  300px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 15px 50px; 
+}
+
+.password:hover{
+    border-bottom: 1px solid #000;
+    
+}
+.sub {
+    background-color: #366FAF ; 
+    width: 140px; 
+    height: 46px;
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+    border: 3px solid #ddd;
+    margin-left: 30px;
+    
+}
+.sub:hover{
+    
+    box-shadow: 0px 2px 1px 1px #4486D6;
+}
+
+
+.delete {
+    background-color: darkred;
+    width: 140px; 
+    height: 46px;
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+    border: 2px solid #ddd;
+    margin-left: 50px;
+    
+}
+
+.delete:hover{
+    
+    box-shadow: 0px 2px 1px 1px #ED3B3B;
+    
+}
+form a {
+    text-decoration: none;
+}
+

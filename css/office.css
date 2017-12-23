@@ -1,0 +1,242 @@
+/* Start rest */
+*{
+    margin : 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing : border-box;
+    box-sizing: border-box;
+}
+/* End rest */
+
+/* Start body  */
+body{
+    font-family: Arial, Tahoma;
+}
+
+/* End   body  */
+
+/*Start header */
+.main{
+    background-color: #000;
+    color: azure;
+    text-align: center;
+}
+/*End header */
+
+/* Start Nav  */
+nav {
+    background: #515151;
+    
+}   
+nav ul  {
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    
+}
+
+nav ul li:after {
+    
+}
+
+nav ul li:last-child:after{
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: floralwhite;
+    font-weight: bolder;
+    font-size: large;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav ul li a:hover{
+    border: 1px solid #fff;
+    
+}
+    
+
+/* End Nav */ 
+
+/* Start Main */
+
+
+main {
+    background-color: darkgrey;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+main p {
+    text-align: center;
+}
+
+main p span {
+    font-weight: bold;
+    color: beige;
+}
+
+/* End  Main */
+
+/* Start articale */
+article img {
+    
+
+    height: 410px;
+    margin-bottom: -3px;
+}
+
+
+.post{
+    width: 70%;
+    float: left;
+}
+
+.post article{
+    
+    background-color:lightgray;
+    border : 1px solid #ccc;
+    margin: 10px;
+}
+
+article header{
+    background: #e2e2e2;
+    padding: 10px;
+    
+}
+
+article section{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+article section  details ul {
+    list-style: none;
+}
+
+article section code {
+    background-color: white;
+}
+article section p a {
+    text-decoration: none;
+    float: left;
+    color: white;
+    background-color: #2B73D8;
+    display: block;
+    width: 40px;
+    text-align: center;
+    border: 2px solid #1A52AD;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 50px;
+    font-size: 20px;
+}
+article section p a:hover{
+    border: 2px solid #152266;
+}
+
+
+/* End articale */
+
+
+/* datalist */
+
+details summary{
+    font-size: 26px;
+    font-weight: bold;
+}
+details  ul li {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* datalist */
+
+
+/*  Start aside bar  */
+aside {
+    width: 30%;
+    float: right;
+}
+
+aside section {
+    background: #515151;
+    margin: 10px 20px 10px 20px;
+    padding: 10px;
+    border: 1px solid #ddd
+    
+}
+
+aside section h3{
+    background-color: #d1d1d1;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+
+aside section ul {
+ 
+    list-style: none;
+    padding: 10px;
+    margin-top: 10px;
+    
+    
+}
+
+
+aside section ul li {
+    
+    line-height: 1.6;
+}
+aside section ul li:before {
+    content: " ";
+    color: aliceblue;
+}
+
+aside section ul li a {
+        text-decoration: none;
+        color: floralwhite;
+        font-weight: bolder;
+        font-size: large;
+        margin: 5px;
+        padding: 5px;
+    
+}
+aside section ul li a:hover {
+
+    border-bottom: 1px solid #fff;
+    
+}
+/*
+aside section div {
+    margin-top: 10px;
+}
+*/
+
+/*  End aside bar   */
+
+/* Start clear fix  */
+.clear-fix{
+    clear: both;
+}
+    
+/*  End clear fix  */
+
+/* Start Footer */
+footer{
+    background: #333;
+    color: #ddd;
+    text-align: center;
+    padding: 10px;
+}
+
+/* End Footer  */

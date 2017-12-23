@@ -1,0 +1,279 @@
+/* Start rest */
+*{
+    margin : 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing : border-box;
+    box-sizing: border-box;
+}
+/* End rest */
+
+/* Start body  */
+body{
+    font-family: Arial, Tahoma;
+}
+
+/* End   body  */
+
+/*Start header */
+.main{
+    background-color: #000;
+    color: azure;
+    text-align: center;
+}
+/*End header */
+
+/* Start Nav  */
+nav {
+    background: #515151;
+    
+}   
+nav ul  {
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    
+}
+
+nav ul li:after {
+    
+}
+
+nav ul li:last-child:after{
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: floralwhite;
+    font-weight: bolder;
+    font-size: large;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav ul li a:hover{
+    border: 1px solid #fff;
+    
+}
+/* End Nav */ 
+
+/* Start Main */
+
+
+main {
+    background-color: darkgrey;
+    padding: 20px;
+}
+
+main h1 {
+    text-align: center;
+}
+
+/* End  Main */
+
+/* Start articale */
+
+.post{
+    width: 70%;
+    float: left;
+}
+
+.post article{
+    
+    background-color:lightgray;
+    border : 1px solid #ccc;
+    margin: 10px;
+}
+
+
+article header{
+    background: #e2e2e2;
+    padding: 10px;
+    
+}
+
+article section{
+    padding: 10px;
+    margin-top: 10px;
+    height: 790px;
+}
+
+article section  details ul {
+    list-style: none;
+}
+
+article section code {
+    background-color: white;
+}
+/* End articale */
+
+/* start login form */
+form {
+    
+    height: 760px;
+    width: 550px;
+    margin-right: 5px;
+    padding: 20px;
+    box-shadow: 10px 11px 8px 5px;
+    background-image: url(../images/7.jpg);
+
+}
+form:hover{
+    border: 2px silver;
+    box-shadow: 10px 11px 8px -3px;    
+} 
+
+label{
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.text {
+    width: 445px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 3px solid #5E5656;
+}
+.text:hover {
+    border: 2px solid #5D8FEA;
+}
+
+.password{
+    width:  445px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: 3px solid #5E5656;
+}
+
+.password:hover{
+    border: 2px solid #5D8FEA;
+    
+}
+.sub {
+    background-color: #366FAF ; 
+    width: 200px; 
+    height: 46px;
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+    border: 3px solid #ddd;
+    margin-left: 30px;
+    
+}
+.sub:hover{
+    
+    box-shadow: 0px 2px 1px 1px #4486D6;
+}
+
+
+.delete {
+    background-color: darkred;
+    width: 140px; 
+    height: 46px;
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+    border: 2px solid #ddd;
+    margin-left: 50px;
+    
+}
+
+.delete:hover{
+    
+    box-shadow: 0px 2px 1px 1px #ED3B3B;
+    
+}
+form a {
+    text-decoration: none;
+}
+
+/* End login form */
+
+
+/*  Start aside bar  */
+aside {
+    width: 30%;
+    float: right;
+}
+
+aside section {
+    background-color: #515151;
+    margin: 10px 20px 10px 20px;
+    padding: 10px;
+    border: 1px solid #ddd
+    
+}
+
+aside section h3{
+    background-color: #d1d1d1;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+
+aside section ul {
+ 
+    list-style: none;
+    padding: 10px;
+    margin-top: 10px;
+    
+    
+}
+
+
+aside section ul li {
+    
+    line-height: 1.6;
+}
+aside section ul li a {
+        text-decoration: none;
+        color: floralwhite;
+        font-weight: bolder;
+        font-size: large;
+        margin: 5px;
+        padding: 5px;
+    
+}
+aside section ul li a:hover {
+
+    border-bottom: 1px solid #fff;
+    
+}
+
+
+
+/*
+aside section div {
+    margin-top: 10px;
+}
+*/
+
+/*  End aside bar   */
+
+/* Start clear fix  */
+.clear-fix{
+    clear: both;
+}
+    
+/*  End clear fix  */
+
+/* Start Footer */
+footer{
+    background: #333;
+    color: #ddd;
+    text-align: center;
+    padding: 10px;
+}
+
+/* End Footer  */
+
+
+
